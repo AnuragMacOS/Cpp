@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  int marks;
+  cout<<"The marks is:";
+  cin>>marks;
+
+  if(marks<25){
+    cout<<"F"<<endl;
+  }
+  else if(marks<=44)
+  {
+     cout<<"E"<<endl;
+  }
+  else if(marks<=49)
+  {
+    cout<<"D"<<endl;
+  }
+  else if(marks <=59)
+ {
+  cout<<"C"<<endl;
+ }
+ else if(marks<=79)
+ {
+  cout<<"B"<<endl;
+ }
+ else {
+  cout<<"A"<<endl;
+ }
+  return 0;
+}
